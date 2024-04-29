@@ -170,6 +170,9 @@ textarea {
     background-color: cyan;
 }
 
+.publicidad{
+    justify-content: center;
+}
 @media(max-width: 767px) {
     .navbar-nav {
         text-align: left;

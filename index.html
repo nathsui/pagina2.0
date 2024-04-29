@@ -97,7 +97,7 @@
                                 <li><a class="dropdown-item"
                                         href="#nuevos-articulos">Nuevos
                                         Articulos</a></li>
-                                <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                                <li><a class="dropdown-item" href="formcontacto.html">Contacto</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -173,36 +173,146 @@
             </button>
         </div>
 
-    <main class="my-5 mx-5"> <!--Caja nuevos articulos-->
-        <section class="cont-caja my-5 mx-5" id="nuevos-articulos"> 
-            <div class="container p-2" style="background-color: #ccd1d1;">
-                <h2 class="text-center text-dark my-3">Espacio Publico</h2>
-                <p class="text-center text-dark">
-                    Es importante para nosotros conocer tu opinion, y te brindamos este Espacio
-                    para tus publicaciones.
-                </p>
-                <div class="row">
-                    <div class="col-6 md-5 text-justify p-2">
-                        
-                        <div class="text-dark my-1" id="articleCounter">0 Artículos</div>
-                        <form id="articleForm" action="index.html">
-                            <input type="text" id="titleInput" name="titleInput"
-                                placeholder="Título">
-                            <textarea id="descriptionInput"
-                                name="descriptionInput"
-                                placeholder="Descripción"></textarea>
-                            <button class="btn btn-primary mt-1" type="button"
-                                onclick="enviarNoticia()">Enviar Noticia</button>
-                        </form>
+        <main class="my-5 py-4 mx-5"> <!--noticias-->
+            <section class="noticias" id="noticias">
+                <h2 class="text-center text-white pb-2">Noticias Destacadas</h2>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/diatrabajador.png.avif" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body"style="background-color: #e4f4f4;">
+                          <h5 class="card-title">Día del Trabajador en Chile 2024: </h5>
+                          <p class="card-text">Qué significa que sea un feriado irrenunciable y cómo funcionará el comercio.
+                        </p>
+                          <p class="card-text"><a href="https://www.adnradio.cl/2024/04/28/dia-del-trabajador-en-chile-2024-que-significa-que-sea-un-feriado-irrenunciable-y-como-funcionara-el-comercio/" target="_blank" small class="text-muted">Conoce más aqui</small></p></a>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-6 md-5 text-center text-dark p-2" >
-                        <div class="text-justify md-5" id="nuevo-articulo">
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px; margin-left:auto;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/N2OF7KRL5ZOIPFSRQ4CNXM3GBA.jpg.avif" class="img-fluid rounded-star" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body" style="background-color: #e4f4f4;">
+                          <h5 class="card-title">Tras asesinato a carabineros en la región:</h5>
+                          <p class="card-text">Gobernador del Biobío llama a instaurar pena de muerte a asesinos de policías en Chile.</p>
+                          <p class="card-text"><a href="https://www.adnradio.cl/2024/04/27/tras-asesinato-a-carabineros-en-la-region-gobernador-del-biobio-llama-a-instaurar-pena-de-muerte-a-asesinos-de-policias-en-chile/" target="_blank" small class="text-muted">Conoce más aqui</small></p></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/ovnis.jpg.avif" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body"style="background-color: #e4f4f4;">
+                          <h5 class="card-title">Mucho antes de lo que se pensaba: </h5>
+                          <p class="card-text">Científica da su estimación de cuándo podríamos encontrar vida extraterrestre.</p>
+                          <p class="card-text"><a href="https://www.adnradio.cl/2024/04/26/mucho-antes-de-lo-que-se-pensaba-cientifica-da-su-estimacion-de-cuando-podriamos-encontrar-vida-extraterrestre/" target="_blank" small class="text-muted">Conoce más aqui</small></p></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </section>  
+
+        <section class="section-padding" id="nuevos-articulos"> <!--publicidad-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center text-white pb-2">
+                            <h2 class="my-5 py-4 mx-5">publicidad</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-dark text-center pb-2"
+                            style="background-color: #e4f4f4;">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <!--mb = margin botton-->
+                                    <img src="img/POLLA0104.jpeg" class="img-fluid rounded-start" alt="...">
+
+                                </div>
+                                <h2>Juega y gana</h2>
+
+                                <a href="https://www.polla.cl/es/view/juego/loto" class="btn btn-primary">Entrar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-dark text-center pb-2"
+                            style="background-color: #e4f4f4;">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <!--mb = margin botton-->
+                                <img src="img/psn.jpeg" class="img-fluid rounded-start" alt="...">
+
+                                </div>
+                                <h2>Compra tu membresia</h2> 
+                                <a href="https://www.eneba.com/psn-playstation-network-card-psn-10-usa-psn-key-united-states" class="btn btn-primary">Entrar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-dark text-center pb-2"
+                            style="background-color: #e4f4f4;">
+                            <div class="card-body text-black">
+                                <div class="img-area mb-4">
+                                    <!--mb = margin botton-->
+                                    <img src="img/maxresdefault.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <h2>Cambia tu plan</h2>
+                                <a href="https://help.netflix.com/es/node/24926" class="btn btn-primary">Entrar</a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>  
+    </main>
+    
+    <section class="publicidad my-5 py-4 mx-5"> <!--Caja articulos-->
+        
 
+            <div class="container" id="nuevos-articulos">
+                <div class="row">
+                    <div class="col-md-4  p-0 pt-4 pb-4 mx-auto">
+                        <div class="col-12 col-md-6 col-lg-12 card text-center" style="background-color: #e4f4f4;">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Espacio publicitario</h5>
+                                <form id="articleForm" action="index.html">
+                                  <input type="text" id="titleInput" name="titleInput"
+                                      placeholder="Título">
+                                  <textarea id="descriptionInput"
+                                      name="descriptionInput"
+                                      placeholder="Descripción"></textarea>
+                                  <button class="btn btn-primary mt-1" type="button"
+                                      onclick="enviarNoticia()">Enviar Noticia</button>
+                              </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="nuevos-articulos">
+                <div class="row">
+                    <div class="col-md-4  p-0 pt-4 pb-4 mx-auto">
+                        <div class="col-12 col-md-6 col-lg-12 card text-center" style="background-color: #e4f4f4;">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Escribe aqui tu anuncio</h5>
+                                <div class="text-justify md-5" id="nuevo-articulo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <article class="my-5 mx-5">
         <section class="section-padding" id="entretenimiento"> <!--Entretenimiento-->
             <div class="container">
                 <div class="row">
@@ -323,97 +433,16 @@
                 </div>
             </div>
         </section>  
-    </main>
-
-    <article class="my-5 py-4 mx-5"> <!--noticias-->
-        <section class="noticias" id="noticias">
-            <h2 class="text-center text-white pb-2">Noticias Destacadas</h2>
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="img/diatrabajador.png.avif" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body"style="background-color: #e4f4f4;">
-                      <h5 class="card-title">Día del Trabajador en Chile 2024: </h5>
-                      <p class="card-text">Qué significa que sea un feriado irrenunciable y cómo funcionará el comercio.
-                    </p>
-                      <p class="card-text"><a href="https://www.adnradio.cl/2024/04/28/dia-del-trabajador-en-chile-2024-que-significa-que-sea-un-feriado-irrenunciable-y-como-funcionara-el-comercio/" target="_blank" small class="text-muted">Conoce más aqui</small></p></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px; margin-left:auto;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="img/N2OF7KRL5ZOIPFSRQ4CNXM3GBA.jpg.avif" class="img-fluid rounded-star" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body" style="background-color: #e4f4f4;">
-                      <h5 class="card-title">Tras asesinato a carabineros en la región:</h5>
-                      <p class="card-text">Gobernador del Biobío llama a instaurar pena de muerte a asesinos de policías en Chile.</p>
-                      <p class="card-text"><a href="https://www.adnradio.cl/2024/04/27/tras-asesinato-a-carabineros-en-la-region-gobernador-del-biobio-llama-a-instaurar-pena-de-muerte-a-asesinos-de-policias-en-chile/" target="_blank" small class="text-muted">Conoce más aqui</small></p></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="img/ovnis.jpg.avif" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body"style="background-color: #e4f4f4;">
-                      <h5 class="card-title">Mucho antes de lo que se pensaba: </h5>
-                      <p class="card-text">Científica da su estimación de cuándo podríamos encontrar vida extraterrestre.</p>
-                      <p class="card-text"><a href="https://www.adnradio.cl/2024/04/26/mucho-antes-de-lo-que-se-pensaba-cientifica-da-su-estimacion-de-cuando-podriamos-encontrar-vida-extraterrestre/" target="_blank" small class="text-muted">Conoce más aqui</small></p></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </section>
     </article>
 
+  
     <aside> <!--Contacto-->
-        <section class="contacto my-5 py-4 mx-5" style="background-color: rgb(126, 151, 219)0%, rgb(44, 45, 131) 70%" 
-        id="contacto"> 
-            <h2 class="text-center text-white">Contactanos</h2>
-            <div class="cont-contactanos">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 p-0 pt-4 pb-4">
-                       <form action="https://formsubmit.co/nathsui527@gmail.com" method="POST" 
-                       class="p-4 m-auto" style="background-color: #e4f4f4;">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control"
-                                            placeholder="Nombre">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="mb-3">
-                                        <input type="email" class="form-control"
-                                            placeholder="Correo">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="mb-3">
-                                        <textarea class="form-control"
-                                            placeholder="Mensaje" rows="3"></textarea>
-                                    </div>
-                                </div>
-                                <button
-                                    class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
-                                <input type="hidden" name="_next"
-                                    value="https://nathsui.github.io/pagina2.0/"> <!--agregar dominio -->
-                                <input type="hidden" name="_captcha"
-                                    value="false">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-4  p-0 pt-4 pb-4 mx-4">
-                        <div class="col-12 col-md-6 col-lg-12 card text-center" style="background-color: #e4f4f4;">
-                            <div class="card-body text-dark">
+        <section class="contacto my-5 py-4 mx-5" style="background-color: rgb(126, 151, 219)0%, rgb(44, 45, 131) 70%">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4  p-0 pt-4 pb-4 mx-auto">
+                            <div class="col-12 col-md-6 col-lg-12 card text-center" style="background-color: #e4f4f4;">
+                                <div class="card-body text-dark">
                                 <img src="img/yo.jpg" height="80" width="90"
                                     class="img-fluid rounded-circle " alt>
                                 <!--para redondear la imagen-->
